@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RES.ATM.API", "RES.ATM.API.csproj", "{D1FC29A1-B297-484B-8B48-62AA9D695EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RES.ATM.API.Tests", "..\RES.ATM.API.Tests\RES.ATM.API.Tests.csproj", "{89A842FB-35B0-4AB2-A486-8AAFF97F552C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RES.ATM.API.Domain", "..\RES.ATM.API.Domain\RES.ATM.API.Domain.csproj", "{EDF9635F-255D-4B01-95A1-C906D5915A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RES.ATM.API.Infrastructure", "..\RES.ATM.API.Infrastructure\RES.ATM.API.Infrastructure.csproj", "{B1F29388-BDCC-4CFC-A5E1-C5AFE29FCACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RES.ATM.API.Shared", "..\RES.ATM.API.Shared\RES.ATM.API.Shared.csproj", "{52B38A68-4B27-477D-9A12-96619E95E119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1FC29A1-B297-484B-8B48-62AA9D695EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FC29A1-B297-484B-8B48-62AA9D695EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FC29A1-B297-484B-8B48-62AA9D695EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FC29A1-B297-484B-8B48-62AA9D695EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A842FB-35B0-4AB2-A486-8AAFF97F552C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A842FB-35B0-4AB2-A486-8AAFF97F552C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A842FB-35B0-4AB2-A486-8AAFF97F552C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A842FB-35B0-4AB2-A486-8AAFF97F552C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF9635F-255D-4B01-95A1-C906D5915A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF9635F-255D-4B01-95A1-C906D5915A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF9635F-255D-4B01-95A1-C906D5915A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF9635F-255D-4B01-95A1-C906D5915A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F29388-BDCC-4CFC-A5E1-C5AFE29FCACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F29388-BDCC-4CFC-A5E1-C5AFE29FCACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F29388-BDCC-4CFC-A5E1-C5AFE29FCACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F29388-BDCC-4CFC-A5E1-C5AFE29FCACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B38A68-4B27-477D-9A12-96619E95E119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B38A68-4B27-477D-9A12-96619E95E119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B38A68-4B27-477D-9A12-96619E95E119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B38A68-4B27-477D-9A12-96619E95E119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09AC4B52-D67B-4D8C-8222-016E86FFD653}
+	EndGlobalSection
+EndGlobal
