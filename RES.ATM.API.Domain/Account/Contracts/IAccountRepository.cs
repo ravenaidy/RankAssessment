@@ -9,5 +9,6 @@ namespace RES.ATM.API.Domain.Contracts
 
         Task<Account.Model.Account> GetBalance(int accountId);
 
+        Task<bool> UpdateBalance(int accountId, decimal newBalance);
     }
 }

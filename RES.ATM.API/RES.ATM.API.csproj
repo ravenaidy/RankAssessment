@@ -5,11 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\RES.ATM.API.Domain\RES.ATM.API.Domain.csproj" />
+    <ProjectReference Include="..\RES.ATM.API.Infrastructure\RES.ATM.API.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,14 +1,13 @@
-﻿using RES.ATM.API.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
 
 namespace RES.ATM.API.Domain.ATM.Events
 {
-    public class WithdrawalCompletedEvent : BaseEvent
+    public class WithdrawalCompletedEvent : INotification
     {
-
+        public WithdrawalCompletedEvent(decimal withdrawalAmount)
+        {
+            WithdrawalAmount = withdrawalAmount;
+        }
+        public decimal WithdrawalAmount { get; set; }
     }
 }

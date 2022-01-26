@@ -47,10 +47,10 @@ namespace RES.ATM.API.Infrastructure.Repositories.Dapper
             return await Connection.QueryAsync<T>(cmd);
         }
 
-        protected async Task<T> QuerySingleAsync<T>(string sql, object parameters = null, CommandType commandType = CommandType.Text)
+        protected async Task<T> QueryFirstOrDefaultAsync<T>(string sql, object parameters = null, CommandType commandType = CommandType.Text)
         {
             var cmd = new CommandDefinition(sql, parameters, commandType: commandType);
-            return await Connection.QuerySingleAsync<T>(cmd);
+            return await Connection.QueryFirstOrDefaultAsync<T>(cmd);
         }
 
         public void Dispose()

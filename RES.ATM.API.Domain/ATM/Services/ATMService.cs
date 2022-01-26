@@ -14,6 +14,6 @@ namespace RES.ATM.API.Domain.ATM.Services
             ATMAmount = amount;
         }
 
-        public decimal ATMAmount { get; private set; }
+        public decimal ATMAmount { get; set; }
     }
 }

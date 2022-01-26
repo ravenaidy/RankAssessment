@@ -18,5 +18,14 @@ namespace RES.ATM.API.Domain.Account.Model
         public decimal Balance { get; set; }
 
         public decimal OverDraftAmount { get; set; }
+
+        // Returns Balance including overdraft if available
+        public decimal WithdrawalBalance 
+        {
+            get
+            {
+                return HasOverDraft ? Balance + OverDraftAmount : Balance;
+            } 
+        }
     }
 }

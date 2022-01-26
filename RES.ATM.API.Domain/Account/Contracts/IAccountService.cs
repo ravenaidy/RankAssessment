@@ -7,6 +7,6 @@ namespace RES.ATM.API.Domain.Account.Contracts
     {
         Task<Model.Account> ValidateAccount(Guid accountNumber, int pinNumber);
         Task<decimal> GetBalance(int accountId);
-        Task<decimal> WithDraw(int accountId, decimal amount);
+        Task<decimal> Withdraw(int accountId, decimal amount);
     }
 }
