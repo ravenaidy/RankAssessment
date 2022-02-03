@@ -15,4 +15,9 @@
     <ProjectReference Include="..\RES.ATM.API.Infrastructure\RES.ATM.API.Infrastructure.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Include="..\RES.ATM.API.Infrastructure\DB\ATM.db">
+			<CopyLocalFilesOutputGroupOutput>Always</CopyLocalFilesOutputGroupOutput>
+		</None>	
+	</ItemGroup>
 </Project>

@@ -13,4 +13,10 @@
     <ProjectReference Include="..\RES.ATM.API.Shared\RES.ATM.API.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="DB\ATM.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
